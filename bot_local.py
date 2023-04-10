@@ -53,9 +53,9 @@ def send_about(message):
         content = f.read()
         temp = Template(content)
         about = temp.substitute(
-            STUDENT_NAME = "Tomy Tjandra",
-            BATCH_ACADEMY = "Phoenix Day",
-            GITHUB_REPO_LINK = "https://github.com/"
+            STUDENT_NAME = "Victor Nugraha",
+            BATCH_ACADEMY = "Vulcan Scholarship",
+            GITHUB_REPO_LINK = "https://github.com/VictorNugraha"
         )
 
     bot.send_message(
